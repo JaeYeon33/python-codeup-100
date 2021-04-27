@@ -9,3 +9,5 @@
 # 나머지 문자들 : what?
 
 import sys
+
+data = map(str, sys.stdin.readline().split())
