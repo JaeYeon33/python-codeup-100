@@ -14,5 +14,8 @@
 # 변수 = input()
 # 를 실행시키면 키보드로 입력한 값을 왼쪽의 변수에 저장한다.
 
-a = str(input())
-print(a)
+import sys
+
+word = sys.stdin.readline().rstrip()
+
+print(word)

@@ -9,5 +9,8 @@
 # print(f)
 # 와 같은 형태로 가능하다.
 
-f = float(input())
-print(f)
+import sys
+
+num = float(sys.stdin.readline().rstrip())
+
+print(num)

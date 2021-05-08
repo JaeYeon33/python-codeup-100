@@ -7,5 +7,5 @@
 
 import sys
 
-hour, minute = map(int, sys.stdin.readline().split(':'))
+hour, minute = map(int, sys.stdin.readline().rstrip().split(':'))
 print("%d:%d" % (hour, minute))
